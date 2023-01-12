@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right,  rgb(231, 228, 228),rgb(187, 192, 191));
+}
+/* BARRA FIXA LOGO/MENU */
+nav{
+    background-color: rgb(4, 8, 7);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+
+}
+nav .logo a{
+    color: white;
+    display: block;
+    padding: 30px 16px;
+    size: 50px;
+    text-align: center;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+/* MENU */
+.mainmenubtn {
+    background-color: rgb(4, 8, 7);
+    color: white;
+    border: none;
+    padding:21px;
+    width: 130px;
+    margin-top:10px;
+    font-size: 17px;
+}
+.mainmenubtn:hover {
+    background-color:gray;
+    color: rgba(0, 0, 0, 0.521);
+    }
+.dropdown {
+    position: fixed ;
+    display: inline-block;
+    right: 5%;
+}
+.displayed{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.dropdown-child {
+    display: none;
+    background-color: rgb(4, 8, 7);
+    min-width: 100px;
+}
+.dropdown-child a {
+    color: gray;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+/* Footer */
+
+
+footer{
+    background:  rgb(4, 8, 7);
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    border: none;
+}
+footer > p{
+    color:white;
+    text-align: center;
+    margin-top: 6px;
+}
+/* link topo */
+.botoes > div {
+    display: inline-block;
+	margin-left: 28%;
+
+}
+.left{
+	padding: 11px 31px; 
+	vertical-align: middle; 
+	background-color: rgb(4, 8, 7);
+	color:white;
+	border-radius:20px; 
+    text-decoration:none;
+	font-size: 15px;
+}
+.right{
+	padding: 11px 21px; 
+	vertical-align: middle; 
+	background-color: rgb(4, 8, 7);
+	color:white;
+	border-radius:20px; 
+    text-decoration:none;
+	font-size: 15px;
+}
+
+
+/* MAIN */
+.container{
+    width: 80%;
+    text-align: justify;
+}
+.container p{
+    text-align: left;
+    color: black;
+    text-align: justify;
+}
+img{
+    width: 60%;
+}
+
+/* Scroll */
+
+::-webkit-scrollbar {
+    width: 10px; 
+ }
+
+ ::-webkit-scrollbar-track {
+  background-color:  rgb(4, 8, 7);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cccaca94;
+  border-radius: 15px;
+}
+/* SAIBA MAIS*/
+.sm{
+    margin-left: 43%;
+}
+a{
+    color: #333;
+}
+
+/* Icons */
+
+.icons{
+	position: fixed;
+	margin-top: 2%;
+	margin-left: 3%;
+}
+.icons img{
+	box-sizing: border-box;
+	margin: 10px;
+}
